@@ -1,5 +1,5 @@
-let getUserCity = ''
-let getFavoriteSport = ''
+let getUserCity = '';
+let getFavoriteSport = '';
 let getYearOfBirth = prompt('Provide your year of birth:');
 
 if (getYearOfBirth === null) {
@@ -43,7 +43,7 @@ ${userPlace} ${getUserCity}
 Your favorite sport is ${getFavoriteSport}. ${userSport}?`;
 
             if (getYearOfBirth !== null && getUserCity !== null) {
-                alert(result)
+                alert(result);
             }
         }
     }
